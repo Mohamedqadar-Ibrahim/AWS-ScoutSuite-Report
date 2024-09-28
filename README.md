@@ -22,7 +22,8 @@ The main objectives of this project are to:
 ### 1. Set Up AWS IAM Roles
 In this step, IAM roles were configured to allow EC2 instances to interact with AWS services securely.
 
-![AWS Roles Configuration](https://path-to-your-screenshot/AWS Roles Screenshot.PNG)
+![AWS Roles Configuration](screenshots/AWS%20Roles%20Screenshot.PNG)
+
 
 ### 2. Launch EC2 Instance
 An EC2 instance was launched with the **Amazon Linux 2023 AMI** to run ScoutSuite.
