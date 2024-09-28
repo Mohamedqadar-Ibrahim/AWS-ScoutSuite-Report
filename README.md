@@ -16,6 +16,7 @@ The main objectives of this project are to:
 - **AWS**: Amazon Web Services account for deploying resources.
 - **ScoutSuite**: Multi-cloud security auditing tool.
 - **PuTTY**: SSH client for connecting to the EC2 instance.
+- **Git Bash**: Command line interface for running Unix-like commands on Windows.
 
 ## Steps Taken 🗂️
 
@@ -67,7 +68,7 @@ The dashboard displayed the results of the AWS services audit. The following is 
 - **S3**: 18 rules identified.
 - Other services showed no findings, indicating either they are not in use or properly configured.
 
-![Overall Results](screenshots/s3%20results%20screenshot.PNG)
+![Overall Results](screenshots/S3%20results%20screenshot.PNG)
 
 ## Conclusion 🏁
 This project demonstrates the effective use of ScoutSuite in auditing AWS environments. While the S3 bucket had findings, the other services were found to be secure (or not present). The recommendations provided aim to enhance the security posture of the AWS account.
