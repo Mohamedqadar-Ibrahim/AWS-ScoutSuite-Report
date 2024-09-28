@@ -31,8 +31,11 @@ An EC2 instance was launched with the **Amazon Linux 2023 AMI** to run ScoutSuit
 
 ### 3. Install and Configure ScoutSuite
 ScoutSuite was installed on the EC2 instance. The following command was used to perform the audit:
-```bash
-scout aws --profile default
+
+![scout command](https://path-to-your-screenshot/scout command Screenshot.PNG)
+
+
+
 ### 4. Downloading the Report
 After running the scan, the complete report folder was downloaded from the EC2 instance to the local machine.
 
