@@ -1,7 +1,7 @@
 # AWS ScoutSuite Project 🚀
 
 ## Overview 📖
-This project utilizes **ScoutSuite**, an open-source security auditing tool, to assess the security posture of AWS accounts. The primary goal is to identify potential vulnerabilities across various AWS services, ensuring that best practices for security are being followed.
+This project utilises **ScoutSuite**, an open-source security auditing tool, to assess the security posture of AWS accounts. The primary goal is to identify potential vulnerabilities across various AWS services, ensuring that best practices for security are being followed.
 
 ## Objective 🎯
 The main objectives of this project are to:
@@ -43,13 +43,13 @@ After running the scan, the complete report folder was downloaded from the EC2 i
 
 ![Downloading Report](screenshots/Downloading%20report%20folder%20screenshot.PNG)
 
-### 5. Analyzing Results
+### 5. Analysing Results
 The results of the audit were primarily focused on S3 services, which indicated **18 rules** that require attention. Below is a detailed analysis of the findings related to S3:
 
 #### S3 Findings Analysis
 - **Total Rules Found**: 18 rules related to S3 configuration issues.
 - **Common Issues Detected**:
-  - **Publicly Accessible Buckets**: Some S3 buckets may be publicly accessible, posing a risk of unauthorized data exposure.
+  - **Publicly Accessible Buckets**: Some S3 buckets may be publicly accessible, posing a risk of unauthorised data exposure.
   - **Unrestricted Bucket Policies**: Certain buckets have policies that allow public access, increasing the risk of data leaks.
 
 #### Recommendations 💡
@@ -57,8 +57,8 @@ To address the S3 findings, I recommend the following actions:
 
 | Recommendations                                          |
 |---------------------------------------------------------|
-| **Review Bucket Policies**: Tighten policies to ensure only authorized users can access sensitive data. |
-| **Implement Access Logging**: Enable server access logging for all S3 buckets to monitor unauthorized access attempts. |
+| **Review Bucket Policies**: Tighten policies to ensure only authorised users can access sensitive data. |
+| **Implement Access Logging**: Enable server access logging for all S3 buckets to monitor unauthorised access attempts. |
 | **Use AWS Config**: Continuously monitor configurations to ensure compliance with security policies. |
 | **Regular Audits**: Conduct regular audits with tools like ScoutSuite to identify and remediate vulnerabilities promptly. |
 
