@@ -28,19 +28,19 @@ In this step, IAM roles were configured to allow EC2 instances to interact with 
 ### 2. Launch EC2 Instance
 An EC2 instance was launched with the **Amazon Linux 2023 AMI** to run ScoutSuite.
 
-![PuTTY Terminal](https://path-to-your-screenshot/PuTTY Terminal Screenshot.PNG)
+![PuTTY Terminal](screenshots/PuTTY%20Terminal%20Screenshot.PNG)
 
 ### 3. Install and Configure ScoutSuite
 ScoutSuite was installed on the EC2 instance. The following command was used to perform the audit:
 
-![scout command](https://path-to-your-screenshot/scout command Screenshot.PNG)
+![scout command](screenshots/scout%20command%20screenshot.PNG)
 
 
 
 ### 4. Downloading the Report
 After running the scan, the complete report folder was downloaded from the EC2 instance to the local machine.
 
-![Downloading Report](https://path-to-your-screenshot/Downloading report folder screenshot.PNG)
+![Downloading Report](screenshots/Downloading%20report%20folder%20screenshot.PNG)
 
 ### 5. Analyzing Results
 The results of the audit were primarily focused on S3 services, which indicated **18 rules** that require attention. Below is a detailed analysis of the findings related to S3:
@@ -67,7 +67,7 @@ The dashboard displayed the results of the AWS services audit. The following is 
 - **S3**: 18 rules identified.
 - Other services showed no findings, indicating either they are not in use or properly configured.
 
-![Overall Results](https://path-to-your-screenshot/screenshot 3.PNG)
+![Overall Results](screenshots/s3%20results%20screenshot.PNG)
 
 ## Conclusion 🏁
 This project demonstrates the effective use of ScoutSuite in auditing AWS environments. While the S3 bucket had findings, the other services were found to be secure (or not present). The recommendations provided aim to enhance the security posture of the AWS account.
